@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+.header-container{
+    width: 1180px;
+    height: 120px;
+    background-color: white;
+    margin: 0 auto; /*수평 중앙*/
+    position: relative;
+}
+.header-container h1{
+    color: black;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+.header-container h1>a{
+    color: black;
+    text-decoration: none;
+}
+.header-container ul li {
+    display: inline;
+}
+
+
+#globalbar  {
+    background-color: white;
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 15px;
+}
+
+#globalbar li {
+    margin: 0 30px;
+}
+#globalbar li>a{
+    color: black;
+    text-decoration: none;
+}
+#globalbar li>a:hover{
+    text-decoration: underline;
+}
+#utilitybar {
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+#utilitybar li{
+    margin-left: 10px;
+}
+#utilitybar li>a{
+    color: gray;
+    text-decoration: none;
+
+}
+
+
+section{
+    width: 1000px;
+    margin: 0 auto; /*수평 중앙*/
+    margin-top: 120px;
+}
+
+.arti{
+    float: left;
+    position: relative;
+
+}
+
+.pic1{
+    width: 700px;
+    height: 400px;
+    margin: 10px 10px 0 0;
+}
+.pic1 p{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pic2{
+    width: 290px;
+    height: 190px;
+    margin: 10px 0 ;
+}
+.pic2 p{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+    font-weight: 900;
+}
+.pic3{
+    width: 290px;
+    height: 95px;
+    margin: 0 0 10px 0;
+}
+.pic3 p{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.pic4 img{
+    width: 490px;
+    height: 240px;
+    display: block;
+    margin: 0 10px  10px 0;
+    position: relative;
+
+}
+
+.pic4 div{
+    display: flex;
+    justify-content: center;
+}
+
+#pic4-1{
+    width: 300px;
+    color: black;
+    position: absolute;
+    top: 160px;
+}
+#pic4-2{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: gold;
+}
+.pic5{
+    width: 500px;
+    height: 490px;
+}
+.pic6{
+    width: 1000px;
+    height: 371px;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic6 p{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(1, 1, 1);
+}
+.pic7{
+    width: 1000px;
+    height: 361px;
+    margin: 0 0 30px 0;
+}
+#pic7-1{
+    position: absolute;
+    width: 450px;
+    height: 150px;
+    right: 30px;
+    bottom: 40px;
+    color: white;
+
+}
+#small p,
+#big {
+    display: inline;
+}
+#small {
+    font-size: 20px;
+}
+#big{
+    font-size: 30px;
+    font-weight: 900;
+}
