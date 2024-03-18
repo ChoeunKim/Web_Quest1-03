@@ -127,16 +127,14 @@ section{
 
 }
 
-.pic4 div{
-    display: flex;
-    justify-content: center;
-}
 
 #pic4-1{
     width: 300px;
     color: black;
     position: absolute;
     top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #pic4-2{
     position: absolute;
@@ -154,16 +152,17 @@ section{
     width: 1000px;
     height: 371px;
     margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .pic6 p{
     position: absolute;
     font-size: 50px;
     font-weight: 900;
     color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-shadow: 2px 2px 2px rgb(1, 1, 1);
+    white-space: nowrap;
 }
 .pic7{
     width: 1000px;
