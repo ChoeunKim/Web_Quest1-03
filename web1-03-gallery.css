@@ -186,7 +186,7 @@ section > article:nth-child(8){
     height: 361px;
     margin: 0 0 30px 0;
 }
-#pic7-1{
+#pic7-1 {
     position: absolute;
     width: 450px;
     height: 150px;
@@ -195,14 +195,18 @@ section > article:nth-child(8){
     color: white;
 
 }
+
 #small p,
-#big {
+.big {
     display: inline;
+
 }
+
 #small {
     font-size: 20px;
 }
-#big{
+
+.big {
     font-size: 30px;
     font-weight: 900;
 }
