@@ -80,7 +80,9 @@ article{
     float: left;
     position: relative;
 }
-
+article p{
+    position: absolute;
+}
 
 section > article:first-child{
     background-image: url(./700x400.png);
@@ -89,10 +91,9 @@ section > article:first-child{
     margin: 10px 10px 0 0;
 }
 section > article:first-child p{
-    position: absolute;
+    color: white;
     right: 10px;
     bottom: 10px;
-    color: white;
     font-size: 30px;
     font-weight: 800;
 }
@@ -104,10 +105,9 @@ section > article:nth-child(2){
     margin: 10px 0 ;
 }
 section > article:nth-child(2) p{
-    position: absolute;
+    color: white;
     top: 50px;
     left: 10px;
-    color: white;
     font-weight: 900;
 }
 section > article:nth-child(3){
@@ -123,10 +123,9 @@ section > article:nth-child(4){
     margin: 0 0 10px 0;
 }
 section > article:nth-child(3) p{
-    position: absolute;
+    color: white;
     right: 10px;
     bottom: 20px;
-    color: white;
     font-weight: 900;
 }
 
@@ -149,13 +148,11 @@ section > article:nth-child(5) div:last-child{
 #pic4-1{
     width: 300px;
     color: black;
-    position: absolute;
     top: 160px;
     left: 50%;
     transform: translateX(-50%);
 }
 #pic4-2{
-    position: absolute;
     right: 20px;
     bottom: 30px;
     font-size: 30px;
@@ -174,7 +171,6 @@ section > article:nth-child(7){
     margin: 0 0 10px 0;
 }
 section > article:nth-child(7) p{
-    position: absolute;
     font-size: 50px;
     font-weight: 900;
     color: white;

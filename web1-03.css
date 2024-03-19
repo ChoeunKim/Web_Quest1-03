@@ -94,7 +94,6 @@ article{
     height: auto;
     float: left;
     margin: 0;
-    top: 200px;
 }
 article img{
     width: 230px;
@@ -116,13 +115,13 @@ article img{
     top: 50%; 
     transform: translate(-50%, -50%); 
 }
-#name, #plus {
+article div {
     width: 230px;
     margin: 0 auto;
     margin-top: 10px;
 }
-#name {
-    font-weight: 800;
+.name{
+    font-weight: 900;
 }
 footer{
     width: 100%;
