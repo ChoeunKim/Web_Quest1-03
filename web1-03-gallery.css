@@ -73,18 +73,19 @@ section{
     margin-top: 120px;
 }
 
-.arti{
+article{
     float: left;
     position: relative;
-
 }
 
-.pic1{
+
+section > article:first-child{
+    background-image: url(./700x400.png);
     width: 700px;
     height: 400px;
     margin: 10px 10px 0 0;
 }
-.pic1 p{
+section > article:first-child p{
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -93,24 +94,32 @@ section{
     font-weight: 800;
 }
 
-.pic2{
+section > article:nth-child(2){
+    background-image: url(./290x190.png);
     width: 290px;
     height: 190px;
     margin: 10px 0 ;
 }
-.pic2 p{
+section > article:nth-child(2) p{
     position: absolute;
     top: 50px;
     left: 10px;
     color: white;
     font-weight: 900;
 }
-.pic3{
+section > article:nth-child(3){
+    background-image: url(./290x95-1.png);
+}
+section > article:nth-child(4){
+    background-image: url(./290x95-2.png);
+}
+section > article:nth-child(3),
+section > article:nth-child(4){
     width: 290px;
     height: 95px;
     margin: 0 0 10px 0;
 }
-.pic3 p{
+section > article:nth-child(3) p{
     position: absolute;
     right: 10px;
     bottom: 20px;
@@ -118,13 +127,19 @@ section{
     font-weight: 900;
 }
 
-.pic4 img{
+section > article:nth-child(5) div{
     width: 490px;
     height: 240px;
     display: block;
     margin: 0 10px  10px 0;
     position: relative;
 
+}
+section > article:nth-child(5) div:first-child{
+    background-image: url(./490x240-1.png);
+}
+section > article:nth-child(5) div:last-child{
+    background-image: url(./490x240-2.png);
 }
 
 
@@ -144,16 +159,18 @@ section{
     font-weight: 900;
     color: gold;
 }
-.pic5{
+section > article:nth-child(6){
+    background-image: url(./500x490.png);
     width: 500px;
     height: 490px;
 }
-.pic6{
+section > article:nth-child(7){
+    background-image: url(./1000x371.png);
     width: 1000px;
     height: 371px;
     margin: 0 0 10px 0;
 }
-.pic6 p{
+section > article:nth-child(7) p{
     position: absolute;
     font-size: 50px;
     font-weight: 900;
@@ -164,7 +181,8 @@ section{
     text-shadow: 2px 2px 2px rgb(1, 1, 1);
     white-space: nowrap;
 }
-.pic7{
+section > article:nth-child(8){
+    background-image: url(./1000x361.png);
     width: 1000px;
     height: 361px;
     margin: 0 0 30px 0;
