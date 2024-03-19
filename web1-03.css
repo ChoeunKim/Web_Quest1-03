@@ -87,7 +87,7 @@ header{
 section{
     width: 1180px;
     height: 450px;
-    margin: 0 auto; /*수평 중앙*/
+    margin: 0 auto;
 }
 article{
     width: 295px;

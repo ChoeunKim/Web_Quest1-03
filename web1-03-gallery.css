@@ -16,6 +16,7 @@ header{
     background-color: white;
     margin: 0 auto; /*수평 중앙*/
     position: relative;
+
 }
 .header-container h1{
     color: black;
@@ -39,6 +40,8 @@ header{
     right: 0px;
     bottom: 0px;
     margin-bottom: 15px;
+    font-weight: 700;
+
 }
 
 #globalbar li {
